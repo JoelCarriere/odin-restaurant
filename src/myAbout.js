@@ -1,3 +1,5 @@
+import Icon from './logo.png';
+
 function headline () {
     const restDesc = `Our History`;
     const h1 = document.createElement('h1');
@@ -6,10 +8,9 @@ function headline () {
 }
 
 function photo () {
-    const string = './src/logo.png';
-    const img = document.createElement('img');
-    img.src = string;
-    return img;
+    const myIcon = new Image();
+    myIcon.src = Icon;
+    return myIcon;
 }
 
 function paragraph () {

@@ -2,3 +2,8 @@
     color: red;
     font-size: large;
   }
+
+  img {
+    width: 10vw;
+    height: 10vh;
+  }
