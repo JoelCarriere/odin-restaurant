@@ -1,9 +1,37 @@
 #content {
     color: red;
     font-size: large;
+    text-align: center;
   }
 
-  img {
-    width: 10vw;
-    height: 10vh;
-  }
+img {
+  width: 10vw;
+  height: 10vh;
+}
+
+.homeHeadline {
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menuHeadline {
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.aboutHeadline {
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo {
+  border-radius: 25%;
+  background-color: orange;
+  width: 10vw;
+  height: 10vh;
+}
+
+.paraText {
+  color: grey;
+  font-weight: bold;
+}
